@@ -9,3 +9,11 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+
+# vim ignore
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
