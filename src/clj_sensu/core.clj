@@ -51,11 +51,11 @@
 
 (defn results-by-client
   [cfg client]
-  (api-call cfg :GET (str "/results" client)))
+  (api-call cfg :GET (str "/results/" client)))
 
 (defn results-by-client-check
   [cfg client check]
-  (api-call cfg :GET (str "/results" client "/" check)))
+  (api-call cfg :GET (str "/results/" client "/" check)))
 
 (defn results
   [cfg]
