@@ -1,5 +1,5 @@
 (defproject clj-sensu "0.1.0-SNAPSHOT"
-  :description "FIXME: wrapper for sensu API"
+  :description "wrapper for sensu API"
   :url "http://github.com/julienba/clj-sensu"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
